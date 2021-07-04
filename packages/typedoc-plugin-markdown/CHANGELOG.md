@@ -3,6 +3,46 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 3.11.0 (2021-07-04)
+
+
+### Bug Fixes
+
+* Add space between 'Const' and signature name ([#220](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/220)) ([9400803](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/9400803a7dd0809d92c01d654e3fa75a01cb747e))
+* Added missing class accessor labels ([2b04924](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/2b0492431c27d781a9cc869fdd26eea8259894d6))
+* Escape double quotes inside Front Matter yaml string ([8ce2f2b](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/8ce2f2be03be6cd8d730786d48b5cd484b82ec4e))
+* Escape inherited types ([#215](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/215)) ([34c5e7b](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/34c5e7b9265a1825be567c2e89372d63c9b96f79))
+* Escape leading quote in front-matter string ([#228](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/228)) ([ec38cbc](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/ec38cbc550de9e6ee319129fda96c17ab342bae5))
+* Expand signature return types. ([a348f53](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/a348f539ec91944cbb9e5a6a9ac26bf2cff5ec21))
+* Fix duplicate source blocks ([616ca4e](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/616ca4e0e28431f4183c60b54fa9682c391dffe9))
+* Fix string escape inside backticks ([3b8ab18](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/3b8ab18adda9023f79aaa6d1e377d710d8a09f38))
+* Improve type params table readability ([52038e2](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/52038e228d0dac557b9c972ab6999389d1d6132a))
+* Include missing member type declarations ([84f5703](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/84f5703f6098f89bad7408d1fa1fb4b4d7b5dca6))
+* Override section of methods overriding those of classes from node modules ([cb74e83](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/cb74e83116046aebb900f25f8348a74094b03901))
+* Remove emphasis inside angle brackets ([20c9605](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/20c9605d24dd9c39b49ff84d1b813bc661bb4c3b))
+* Remove extraneous whitespace in table description col ([4e56ae4](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/4e56ae4d12be35f94ac0f7294fc67c66df04e3c1))
+* Use backticks for generics and refernce types to improve consistency ([#239](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/239)) ([1b3395f](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/1b3395f27c7d03d8d1509b9d97dcd06830ff17f5))
+
+
+### Features
+
+* Added `--hidePageTitle` option ([0b9588b](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/0b9588b4db764095b9e5e17ce004d494b92e167e))
+* Added Front matter utils ([a530828](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/a5308280662b0efe5d14f03a5854d26c5e42852e))
+* Added Hugo theme / front matter support ([3cd1bf8](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/3cd1bf894533966f75ccd56c1b7cd2078e7084c0))
+* Conditionally display hierarchies ([#192](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/192)) ([099351c](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/099351cfc207718f9f577b6a8035bebe10e3fc34))
+* Enforce markdowninit standards ([#219](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/219)) ([76a90bb](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/76a90bb052fa289d5b234081e45b9b40e3c7649c))
+* Flatten nested params ([#191](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/191)) ([9398d5c](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/9398d5c7f51e7b1e646a15d4c06bd3056f660aa8))
+* Improve heading structure with disabled inline toc ([#222](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/222)) ([2e898ac](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/2e898ac1ec7b00a610da7d57d90a155f649d64a7))
+* Left-align table headers ([76012ab](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/76012abb7fbbd972cf8143a03bb48d21898dc5d4))
+* Prefix table bars to beggining of lines ([064c0db](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/064c0dbecb194039d6a50d02ccc440116448c78a))
+* TypeDoc 0.21 compatibility ([fa5e913](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/fa5e913ef238c92817761218aa77022bff8d999a))
+* UI fixes and readability enhancements ([#230](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/230)) ([f4329a9](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/f4329a9c989201d69b0e54497eba4f3e6c095abc))
+* Use backticks and quote strings for literal types ([#212](https://github.com/tgreyuk/typedoc-plugin-markdown/issues/212)) ([8949be1](https://github.com/tgreyuk/typedoc-plugin-markdown/commit/8949be1608e60169d1f24393bf4257e38045b059))
+
+
+
+
+
 ## [3.10.2](https://github.com/tgreyuk/typedoc-plugin-markdown/compare/typedoc-plugin-markdown@3.10.1...typedoc-plugin-markdown@3.10.2) (2021-06-24)
 
 
