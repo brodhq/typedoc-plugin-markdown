@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.11.13](https://github.com/tgreyuk/typedoc-plugin-markdown/compare/typedoc-plugin-markdown-minimal@3.11.12...typedoc-plugin-markdown-minimal@3.11.13) (2021-07-04)
+
+**Note:** Version bump only for package typedoc-plugin-markdown-minimal
+
+
+
+
+
 ## [3.11.12](https://github.com/tgreyuk/typedoc-plugin-markdown/compare/typedoc-plugin-markdown-minimal@3.11.11...typedoc-plugin-markdown-minimal@3.11.12) (2021-07-04)
 
 **Note:** Version bump only for package typedoc-plugin-markdown-minimal
