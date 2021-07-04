@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-markdown-minimal",
-  "version": "3.11.0",
+  "version": "3.11.1",
   "description": "A plugin for TypeDoc that enables TypeScript API documentation to be generated in Markdown.",
   "main": "dist/index.js",
   "files": [
@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "lint": "eslint ./src --ext .ts",
-    "prepublishOnly": "npm run lint && npm run build && npm run test",
+    "prepublishOnly": "npm run lint && npm run build",
     "build": "rm -rf dist && tsc && copyfiles --up 1 ./src/**/*.hbs ./dist/",
     "pretest": "npm run demo:md && markdownlint ./demo/md",
     "test": "jest --colors",
@@ -45,5 +45,6 @@
   },
   "dependencies": {
     "handlebars": "^4.7.7"
-  }
+  },
+  "gitHead": "5bfc4f9f9ff5978bda044aad16524671cd9d435a"
 }
